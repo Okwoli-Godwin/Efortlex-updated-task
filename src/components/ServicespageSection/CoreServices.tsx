@@ -3,6 +3,9 @@ import Image from 'next/image'
 import img from "../../../public/rsd.png"
 import img2 from "../../../public/ptw.png"
 import img3 from "../../../public/rc.png"
+import img4 from "../../../public/pm.png"
+import img5 from "../../../public/ma.png"
+import img6 from "../../../public/ai.png"
 
 const CoreServices = () => {
   return (
@@ -24,16 +27,16 @@ const CoreServices = () => {
                     <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>RECRUITMENT CONSULTING</h3>
                 </div>
                 <div className='w-[360px] md:w-[320px] sm:w-[100%] h-[370px] rounded-tr-[15px] rounded-bl-[15px] relative flex justify-center items-center overflow-hidden mb-[30px]'>
-                    <Image src={img3} alt='background image' className='w-full h-[100%] object-cover'/>
-                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>RECRUITMENT CONSULTING</h3>
+                    <Image src={img4} alt='background image' className='w-full h-[100%] object-cover'/>
+                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>PROJCET MANAGEMENT</h3>
                 </div>
                 <div className='w-[360px] md:w-[320px] sm:w-[100%] h-[370px] rounded-tr-[15px] rounded-bl-[15px] relative flex justify-center items-center overflow-hidden mb-[30px]'>
-                    <Image src={img3} alt='background image' className='w-full h-[100%] object-cover'/>
-                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>RECRUITMENT CONSULTING</h3>
+                    <Image src={img5} alt='background image' className='w-full h-[100%] object-cover'/>
+                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>MARKETING</h3>
                 </div>
                 <div className='w-[360px] md:w-[320px] sm:w-[100%] h-[370px] rounded-tr-[15px] rounded-bl-[15px] relative flex justify-center items-center overflow-hidden mb-[30px]'>
-                    <Image src={img3} alt='background image' className='w-full h-[100%] object-cover'/>
-                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>RECRUITMENT CONSULTING</h3>
+                    <Image src={img6} alt='background image' className='w-full h-[100%] object-cover'/>
+                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>ARTIFICIAL INTELLIGENCE</h3>
                 </div>
             </div>
         </div>
