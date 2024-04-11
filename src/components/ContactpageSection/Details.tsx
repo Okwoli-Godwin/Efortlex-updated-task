@@ -66,40 +66,40 @@ const Details = () => {
                 
                 <div className='w-[55%] md:w-[100%] sm:w-[100%] flex flex-wrap pt-[30px] justify-between'>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>First Name</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>First Name</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>Last Name</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Last Name</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>Email</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Email</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>Phone Number</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Phone Number</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>Location</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Location</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[700] text-primary'>Select Subject?</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[700] text-primary'>Select Subject?</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <div className='flex items-center mt-[10px]'>
                             <div className='flex items-center'>
-                                <input type="radio" />
+                                <input type="checkbox" />
                                 <p className='font-[600] text-[15px] ml-[10px]'>General Inquiry</p>
                             </div>
                             <div className='flex items-center ml-[15px]'>
-                                <input type="radio" />
-                                <p className='font-[600] text-[15px] ml-[10px]'>General Inquiry</p>
+                                <input type="checkbox" />
+                                <p className='font-[600] text-[15px] ml-[10px]'>Services Inquiry</p>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-col w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <p className='font-[600]'>Message</p>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Message</p><span className='text-[red] ml-[5px]'>*</span></div>
                         <input placeholder='Write your message' type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none mt-[10px]'/>
                     </div>
                     <div className='w-[100%] flex justify-end'>
