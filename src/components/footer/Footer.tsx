@@ -10,7 +10,7 @@ import { FaTwitter, FaInstagram, FaFacebookSquare  } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='w-[100%] bg-white flex justify-center'>
-      <div className='w-[90%] flex bg-primary pt-[30px] pb-[40px] pl-[20px] pr-[20px] flex-col flex-wrap'>
+      <div className='w-[90%] sm:w-[100%] flex bg-primary pt-[30px] pb-[40px] pl-[20px] pr-[20px] flex-col flex-wrap'>
         <div className='flex w-[100%] flex-wrap'>
           <div className='w-[300px] mr-[50px] flex flex-col items-center md:w-[100%] sm:w-[100%] md:mr-0 sm:mr-0'>
           <div className='w-[100%] flex justify-start items-start md:justify-center md:items-center sm:justify-center sm:items-center'>
