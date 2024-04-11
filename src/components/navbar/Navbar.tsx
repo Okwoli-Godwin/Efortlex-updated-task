@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import shuttle from "../../../public/Shuttle.png"
+import shuttle from "../../../public/removedblue.png"
 import Link from 'next/link'
 import { FiMenu } from "react-icons/fi";
 import { useState } from 'react'
@@ -21,8 +21,8 @@ const Navbar = () => {
   return (
     <div className='w-[100%] h-[70px] flex items-center justify-center fixed bg-white z-30'>
         <div className='w-[90%] flex items-center h-[100%] justify-between'>
-            <div className='w-[60px] h-[100%] flex items-center'>
-                <Image src={shuttle} alt='/'/>
+            <div className='w-[160px] h-[100%] flex items-center justify-start'>
+                <Image src={shuttle} alt='/' className='ml-[-30px]'/>
             </div>
             <div className='flex items-center sm:hidden'>
                 <h4 className='ml-[40px] cursor-pointer'><Link href="/">Home</Link></h4>
