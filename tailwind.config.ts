@@ -1,20 +1,36 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+ 
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        border: "#081A5B",
+        rgba: "rgba(0,0,0,0.5)",
+        white: "#fff",
+        primary: "#081A5B",
+        paragraph: "#434141",
       },
+      borderRadius: {
+				lg: "var(--radius)",
+				md: "calc(var(--radius) - 2px)",
+				sm: "calc(var(--radius) - 4px)",
+      },
+      screens: {
+				sm: { min: "300px", max: "500px" },
+				md: { min: "768px", max: "1024px" },
+				lg: { min: "1025px", max: "1279px" },
+				xl: { min: "1280px", max: "1535px" },
+				"2xl": { min: "1536px" },
+			},
     },
   },
   plugins: [],
-};
-export default config;
+}
+
