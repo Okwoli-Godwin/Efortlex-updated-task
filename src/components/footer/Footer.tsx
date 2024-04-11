@@ -19,7 +19,7 @@ const Footer = () => {
             <Image src={img} alt='/' height={200} className='mt-[-115px] sm:mt-[-80px] hidden sm:flex'/>
           </div>
           <p className='text-white text-center mt-[-80px] md:mt-[-90px] sm:mt-[-70px]'>
-            A-Class Consults is a consultancy, research and personnel training company that integrates cutting-edge technology to deliver practical solutions to the challenges of organizations in the private and public sectors. Founded and registered in Nigeria in 2019 and with working experiences all over Nigeria
+            A-Class Academic Consults is a consultancy, research and personnel training company that integrates cutting-edge technology to deliver practical solutions to the challenges of organizations in the private and public sectors. Founded and registered in Nigeria in 2019 and with working experiences all over Nigeria
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
         <div className='h-[1px] bg-white w-[100%] md:mt-[20px] sm:mt-[40px]'></div>
 
         <div className='w-[100%] flex justify-center items-center mt-[15px]'>
-          <p className='text-white sm:text-center'>Copyright ©2023 All rights reserved by: <span className='font-[700] ml-[5px]'>A-CLASS ACADEMIC CONSULT</span></p>
+          <p className='text-white sm:text-center'>Copyright ©2024 All rights reserved by: <span className='font-[700] ml-[5px]'>A-Class Academic Consult</span></p>
         </div>
       </div>
     </div>
