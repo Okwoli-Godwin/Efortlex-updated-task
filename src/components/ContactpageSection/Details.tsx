@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdEmail, MdLocationPin } from "react-icons/md";
-import { FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaDiscord, FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 import img1 from "../../../public/circle1.png"
 import img2 from "../../../public/circle2.png"
@@ -51,8 +51,11 @@ const Details = () => {
                         <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white hover:text-primary cursor-pointer text-white flex justify-center items-center text-[18px] mr-[20px]'>
                             <FaInstagram />
                         </div>
-                        <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px]'>
+                        <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px] mr-[20px]'>
                             <FaDiscord  />
+                        </div>
+                        <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px]'>
+                            <FaLinkedin  />
                         </div>
                     </div>
                     
