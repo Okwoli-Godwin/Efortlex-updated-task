@@ -5,7 +5,7 @@ import img from "../../../public/aboutframe.png"
 const Hero = () => {
     
   return (
-    <div className='w-[100%] h-[95vh] sm:h-[80vh]'>
+    <div className='w-[100%] h-[95vh] sm:h-[70vh]'>
         <div className='w-full h-[100%] top-0 flex justify-center items-center relative'>
             <Image src={img} alt='background' className='w-full h-[100%] object-cover'/>
             <div className='w-[100%] h-[100%] flex-col bg-[rgba(0,0,0,0.5)] absolute z-10 flex justify-center items-center'>
