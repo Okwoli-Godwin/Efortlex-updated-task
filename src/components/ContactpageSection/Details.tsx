@@ -78,11 +78,11 @@ const Details = () => {
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Phone Number</p><span className='text-[red] ml-[5px]'>*</span></div>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Phone Number</p></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
-                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Location</p><span className='text-[red] ml-[5px]'>*</span></div>
+                        <div className='flex items-center w-[100%]'><p className='font-[600]'>Location</p></div>
                         <input type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
