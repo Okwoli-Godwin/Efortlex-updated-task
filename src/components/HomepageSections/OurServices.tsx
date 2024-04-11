@@ -15,7 +15,7 @@ const OurServices = () => {
                 <h4 className='text-[#fff] font-[700]'>OUR SERVICES</h4>
                 <h1 className='text-[39px] sm:text-[30px] text-[#fff] font-[700] mt-[40px]'>A-Class Academic Consults Limited</h1>
                 <p className='text-[#fff] mt-[40px] md:text-justify sm:text-justify'>We a B2B company with a focus on industrial research, marketing research, project impact studies, strategic business consulting and management, personnel training and workshops, brand building and solutions, online advertising and marketing of products. Our core services include:</p>
-                <Link href="/service">
+                <Link href="/about">
                     <button className='cursor-pointer w-[125px] h-[45px] bg-primary text-white rounded-[10px] text-[14px] font-[600] flex items-center justify-center mt-[40px]'>
                         <label>Learn More</label>
                         <div className='ml-[5px] mt-[2px]'><FaArrowRight /></div>
