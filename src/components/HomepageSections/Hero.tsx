@@ -3,6 +3,7 @@ import Image from 'next/image'
 import eclipse from "../../../public/Ellipses.png"
 import grouped from "../../../public/Grouped.png"
 import { FaArrowRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -16,10 +17,12 @@ const Hero = () => {
                     Full-service B2B research, consultancy and human development company that integrates data, technology and human development to aid private and public sector organisations in making better business decisions and achieving business growTh. 
                 </p>
                 <div className='mt-[25px] sm:w-[100%] sm:flex sm:justify-center'>
-                    <button className='cursor-pointer w-[125px] h-[45px] bg-primary text-white rounded-[10px] text-[14px] font-[600] flex items-center justify-center'>
-                    <label>Get in touch</label>
-                    <div className='ml-[5px] mt-[2px]'><FaArrowRight /></div>
-                </button>
+                    <Link href="/contact">
+                        <button className='cursor-pointer w-[125px] h-[45px] bg-primary text-white rounded-[10px] text-[14px] font-[600] flex items-center justify-center'>
+                            <label>Get in touch</label>
+                            <div className='ml-[5px] mt-[2px]'><FaArrowRight /></div>
+                        </button>
+                    </Link>
                 </div>
                 <div className='absolute left-0 bottom-[70px]'>
                     <Image src={eclipse} alt='/' className='h-[220px] w-[220px]'/>
