@@ -4,7 +4,7 @@ import WhoWeAre from '../components/HomepageSections/WhoWeAre'
 import Values from '../components/HomepageSections/Values'
 import OurServices from '../components/HomepageSections/OurServices'
 import Academic from '../components/HomepageSections/Academic'
-import Testimonials from '../components/HomepageSections/Testimonials'
+// import Testimonials from '../components/HomepageSections/Testimonials'
 
 const page = () => {
   return (
@@ -14,7 +14,7 @@ const page = () => {
       <Values />
       <OurServices />
       <Academic />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </>
   )
 }
