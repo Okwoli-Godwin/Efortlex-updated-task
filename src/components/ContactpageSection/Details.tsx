@@ -14,7 +14,7 @@ import { useForm } from "react-hook-form"
 import { yupResolver } from '@hookform/resolvers/yup';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { MoonLoader } from "react-spinners";
+import { ClipLoader } from "react-spinners";
 
 const Details = () => {
     const [firstName, setFirstName] = useState<string>('')
@@ -206,7 +206,7 @@ const Details = () => {
                     </div>
                     <div className='w-[100%] flex justify-end'>
                             <button type='submit' disabled={isButtonDisabled}  className={`w-[130px] h-[45px] rounded-[5px] flex justify-center items-center text-[14px] ${isButtonDisabled ? 'bg-[silver] text-gray-600 cursor-not-allowed' : 'bg-primary text-white cursor-pointer'}`}>
-                                {loading ? <MoonLoader color="#ffffff" loading={loading} size={20} /> : 'Send Message'}
+                                {loading ? <ClipLoader color="#ffffff" loading={loading} size={20} /> : 'Send Message'}
                             </button>
                     </div>
                 </form>
