@@ -15,12 +15,14 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { ClipLoader } from "react-spinners";
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const Details = () => {
     const [firstName, setFirstName] = useState<string>('')
     const [lastName, setLastName] = useState<string>('')
     const [email, setEmail] = useState<string>('')
-    const [number, setNumber] = useState<string>('')
+    const [number, setNumber] = useState<string>('+234')
     const [location, setLoaction] = useState<string>('')
     const [inquiry, setInquiry] = useState<string>('')
     const [message, setMessage] = useState<string>('')
@@ -31,7 +33,7 @@ const Details = () => {
         firstName: yup.string().required('Field is required'),
         lastName: yup.string().required('Field is required'),
         email: yup.string().email().required('Field is required'),
-        number: yup.string().min(11).max(11).required('Field is required'),
+        number: yup.string().required('Field is required'),
         location: yup.string().required('Field is required'),
         inquiry: yup.string().required('Field is required'),
         message: yup.string().required('Field is required'),
@@ -172,8 +174,20 @@ const Details = () => {
                     </div>
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <div className='flex items-center w-[100%]'><p className='font-[600]'>Phone Number</p></div>
-                        <input {...register('number')}  onChange={(e) => setNumber(e.target.value)} type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
+                        <PhoneInput
+                        {...register('number')}
+                        // containerClass="h-10 flex items-center border-none"  // Ensure the container's height is 40px and content is vertically centered
+                        // inputClass="w-full px-4 py-2"
+                        country={"nigeria"}
+                        value={number}
+                        onChange={(value) => setNumber(value)}
+                        enableLongNumbers={true} // Optional: Allows input field to handle long numbers
+                        autoFormat={false}       // Optional: Set to false if you want to control formatting manually
+                    />
                     </div>
+
+                    
+
                     <div className='flex flex-col w-[45%] sm:w-[100%] md:mb-[40px] sm:mb-[40px]'>
                         <div className='flex items-center w-[100%]'><p className='font-[600]'>Location</p></div>
                         <input {...register('location')}  onChange={(e) => setLoaction(e.target.value)} type="text" className='w-[100%] border border-b-[#8D8D8D] border-t-0 border-l-0 border-r-0 outline-none'/>
