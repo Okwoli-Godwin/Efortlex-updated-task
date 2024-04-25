@@ -13,7 +13,8 @@ const Vision = () => {
             <div className='w-[55%] md:w-[100%] sm:w-[100%] flex flex-col'>
                 <h2 className='text-primary text-[30px] font-[700] md:w-[100%] sm:w-[100%] flex md:justify-center md:items-center sm:justify-center sm:items-center'>Vision</h2>
                 <p className='mt-[20px] md:text-justify text-[18px] sm:text-justify'>
-                    Our mission is to innovate sustainable solutions and nurture the competencies of our client organisations in the private and public sectors to improve their business operations and achieve business success. 
+                    Our vision is to become a renowned and reputable research and human development training hub across
+                    Nigeria and beyond, improving the operations of our client organizations to achieve business success.
                 </p>
             </div>
         </section>
