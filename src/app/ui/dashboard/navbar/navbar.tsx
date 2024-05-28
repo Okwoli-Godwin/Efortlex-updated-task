@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <div className='w-[100%] h-[80px] pl-[40px] pr-[40px] flex justify-between pt-[15px] items-center'>
         <div className='flex flex-col'>
-          <h1 className='text-[19px] font-[700]'>Hello John!</h1>
-          <p className='text-[15px] font-[400]'>Welcome to your dashboard</p>
+          <h1 className='text-[19px] font-[700]'>My Properties</h1>
+          <p className='text-[15px] font-[400]'>Manage all your properties.</p>
         </div>
         
         <div className='flex items-center'>
