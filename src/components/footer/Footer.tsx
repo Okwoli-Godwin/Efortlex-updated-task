@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { RxHome } from "react-icons/rx";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import { FaTwitter, FaInstagram, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -67,10 +67,12 @@ const Footer = () => {
             </div>
             <div className='flex items-center'>
               <div className='text-white text-[25px] flex items-center'>
-                <div className='text-[32px] mr-[35px]'><FaTwitter /></div>
+                {/* <div className='text-[32px] mr-[35px]'><FaTwitter /></div>
                 <div className='text-[32px] mr-[35px]'><FaInstagram /></div>
-                <div className='text-[32px] mr-[35px]'><FaFacebookSquare  /></div>
-                <div className='text-[32px]'><FaLinkedin  /></div>
+                <div className='text-[32px] mr-[35px]'><FaFacebookSquare  /></div> */}
+                <Link href="https://www.linkedin.com/company/a-class-academic-consults-limited/">
+                  <div className='text-[32px]'><FaLinkedin  /></div>
+                </Link>
               </div>
             </div>
           </div>
