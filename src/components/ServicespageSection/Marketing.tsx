@@ -38,7 +38,7 @@ const Marketing = () => {
                     <li>
                         <span className='text-[17px] font-[700]'>Pricing:</span>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                             At the core, our expertise is helping our clients fix value to the services and goods they offer. Our team ensures that the pricing strategy reflects on client’s average prices, the buyer’s perceived value and the perceived value of competitors' products.
+                             At the core, our expertise is helping our clients fix value to the services and goods they offer. Our team ensures that the pricing strategy reflects on client’s average prices, the buyer’s perceived value and the perceived value of competitors products.
                         </p>
                     </li>
                 </ul>
@@ -54,7 +54,7 @@ const Marketing = () => {
                     <li>
                         <span className='text-[17px] font-[700]'>Sales:</span>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                             At A-Class Academic Consults Limited we believe that businesses can't achieve success without sales or marketing. Sales and marketing are fundamental parts that drive business growth and revenue. That's why our team of sales experts are equipped to close deals and generate revenue for our clients through direct interaction with their customers.
+                             At A-Class Academic Consults Limited we believe that businesses cant achieve success without sales or marketing. Sales and marketing are fundamental parts that drive business growth and revenue. Thats why our team of sales experts are equipped to close deals and generate revenue for our clients through direct interaction with their customers.
                         </p>
                     </li>
                 </ul>

@@ -29,13 +29,13 @@ const CyberSecurity = () => {
                     <div className='w-[100%] py-[30px] px-[12px] border-[2px] border-[#4C80BC] flex flex-col items-center mb-[30px]'>
                         <h4 className='text-[#4C80BC] text-[20px] font-[700]'>Building long-term cyber capabilities</h4>
                         <p className='text-[17px] text-[#434141] mt-[10px] text-center'>
-                            We work with client organisations to transform their culture and embed cyber capabilities into their entire business process. Our range of services includes redesigning operating models, helping them adapt to agile approaches, setting up client organisations' attribute-driven assessments, and attracting and retaining the right talent
+                            We work with client organisations to transform their culture and embed cyber capabilities into their entire business process. Our range of services includes redesigning operating models, helping them adapt to agile approaches, setting up client organisations attribute-driven assessments, and attracting and retaining the right talent
                         </p>
                     </div>
                     <div className='w-[100%] py-[30px] px-[12px] border-[2px] border-[#196A0C] flex flex-col items-center mb-[30px]'>
                         <h4 className='text-[#4C80BC] text-[20px] font-[700]'>Establishing Crisis response and preparedness</h4>
                         <p className='text-[17px] text-[#434141] mt-[10px] text-center'>
-                            A-Class Academic Consults Limited helps client organisations minimize the after-effects of cyberattacks. We achieve this by facilitating a faster and more coordinated response to threats, improving regulatory and public perception, and building the capabilities of senior executives. We analyze the preparedness of our client's organisations, engage leadership in crisis response training, and create a crisis playbook and “nerve centre” that establishes governance and responsibilities
+                            A-Class Academic Consults Limited helps client organisations minimize the after-effects of cyberattacks. We achieve this by facilitating a faster and more coordinated response to threats, improving regulatory and public perception, and building the capabilities of senior executives. We analyze the preparedness of our clients organisations, engage leadership in crisis response training, and create a crisis playbook and “nerve centre” that establishes governance and responsibilities
                         </p>
                     </div>
                 </div>

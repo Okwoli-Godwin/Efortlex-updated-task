@@ -37,7 +37,7 @@ const Academic = () => {
                     <li>
                         <span className='text-[17px] font-[700]'>Social media listening:</span>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                            Our AI-powered social media listening tools monitor and analyze conversations on various of our client organisations' social media platforms in real time. They identify trending topics, monitor brand mentions, track sentiment, and provide valuable insights into consumer preferences, behaviours, and emerging market trends.
+                            Our AI-powered social media listening tools monitor and analyze conversations on various of our client organisations social media platforms in real time. They identify trending topics, monitor brand mentions, track sentiment, and provide valuable insights into consumer preferences, behaviours, and emerging market trends.
                         </p>
                     </li>
                 </ul>

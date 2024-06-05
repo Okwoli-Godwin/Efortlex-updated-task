@@ -83,7 +83,7 @@ const Machine = () => {
                             <Image src={img5} alt='' height={70}/>
                             <h3 className='text-[20px] font-[700] text-[#434141] mt-[25px]'>Fraud detection</h3>
                             <p className='text-center text-[16px] mt-[25px]'>
-                                Machine Learning is integrated into our client organisations' infrastructure to alert their clients of potentially fraudulent use of their credit and debit cards.
+                                Machine Learning is integrated into our client organisations infrastructure to alert their clients of potentially fraudulent use of their credit and debit cards.
                             </p>
                         </div>
                         <div className='w-[350px] sm:w-[100%] md:w-[100%] py-[30px] mb-[30px] px-[20px] bg-[#D9D9D9] flex flex-col items-center'>

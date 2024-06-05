@@ -40,21 +40,21 @@ const Recruitment = () => {
                     <ul className='list-disc'>
                     <li>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                             We further establish positive working relationships with our clients and advertise client companies' vacancies on social media or online.
+                             We further establish positive working relationships with our clients and advertise client companies vacancies on social media or online.
                         </p>
                     </li>
                 </ul>
                     <ul className='list-disc'>
                     <li>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                             We research job seekers' databases, review resumes and cover letters, conduct tests and interviews, shortlist job candidates, and negotiate salaries and remuneration, training, and career development as instructed by client companies.
+                             We research job seekers databases, review resumes and cover letters, conduct tests and interviews, shortlist job candidates, and negotiate salaries and remuneration, training, and career development as instructed by client companies.
                         </p>
                     </li>
                 </ul>
                     <ul className='list-disc'>
                     <li>
                         <p className='text-[#434141] mb-[20px] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
-                             We Continuously review and improve client companies' recruitment policies to ensure a higher rate of proposed candidates that get hired by client companies
+                             We Continuously review and improve client companies recruitment policies to ensure a higher rate of proposed candidates that get hired by client companies
                         </p>
                     </li>
                 </ul>

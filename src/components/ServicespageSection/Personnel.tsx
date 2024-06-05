@@ -32,7 +32,7 @@ const Personnel = () => {
                     <Image src={img3} alt='' height={60}/>
                     <h3 className='text-[19px] font-[700] mt-[10px]'>Skills Assessments</h3>
                     <p className='text-center text-[#434141] text-[18px] sm:text-[15px] mt-[12px]'>
-                        To assess employees' competencies and to know what skills need to be improved.
+                        To assess employees competencies and to know what skills need to be improved.
                     </p>
                 </div>
                 <div className='w-[47%] sm:w-[100%] md:w-[100%] flex flex-col items-center px-[20px] mb-[30px]'>

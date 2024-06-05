@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Sector } from "recharts"
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
 
 const data = [
         { name: 'Group A', value: 700 },

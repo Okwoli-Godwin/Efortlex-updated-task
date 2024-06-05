@@ -13,7 +13,7 @@ const Embeded = () => {
                 <div className='w-[48%] sm:w-[100%] md:w-[100%] py-[45px] mb-[30px] px-[20px] bg-[#4c80bc56] flex flex-col items-center'>
                             <h3 className='text-[20px] font-[700] text-[#D18E8E] mt-[25px]'>Improve product functionality: </h3>
                             <p className='text-center text-[16px] mt-[25px]'>
-                                Our embedded system integration allows our clients to add advanced features and functionalities to their products, making them more competitive and appealing to customers. Integrating embedded system into our client's business infrastructures differentiates them in the market and gives them an opportunity to offer unique value to their customers.
+                                Our embedded system integration allows our clients to add advanced features and functionalities to their products, making them more competitive and appealing to customers. Integrating embedded system into our clients business infrastructures differentiates them in the market and gives them an opportunity to offer unique value to their customers.
                             </p>
                 </div>
                 <div className='w-[48%] sm:w-[100%] md:w-[100%] py-[45px] mb-[30px] px-[20px] bg-[#F8FFF7] flex flex-col items-center'>
