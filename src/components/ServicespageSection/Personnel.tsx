@@ -12,7 +12,7 @@ const Personnel = () => {
         <div className='w-[100%] h-[550px] sm:h-[350px] overflow-hidden mt-[50px] flex justify-center items-center relative'>
             <Image src={img} alt='' className='w-[100%] h-[100%] object-cover absolute'/>
         
-            <h3 className='text-[#fff] text-[30px] font-[600] z-[100] sm:text-[20px]'>PERSONNEL TRAINING AND WORKSHOP</h3>
+            <h3 className='text-[#fff] text-[30px] font-[600] z-[100] sm:text-[20px] text-center'>PERSONNEL TRAINING AND WORKSHOP</h3>
         </div>
         
         <div className='w-[90%] flex flex-col items-center mt-[25px]'>
