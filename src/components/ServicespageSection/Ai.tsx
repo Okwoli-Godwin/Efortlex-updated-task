@@ -4,7 +4,7 @@ import img from "../../../public/Rectangle 3855.png"
 
 const Ai = () => {
   return (
-    <div className='w-[100%] flex justify-center pb-[40px] pt-[35px] mt-[20px]'>
+    <div id='ai' className='w-[100%] flex justify-center pb-[40px] pt-[35px] mt-[20px]'>
             
             <div className='w-[90%] flex flex-col items-center'>
                 <h3 className='text-[28px] font-[700] text-[#A85252]'>Artificial intelligence</h3>

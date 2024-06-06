@@ -3,7 +3,7 @@
 import React  from 'react'
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdEmail, MdLocationPin } from "react-icons/md";
-import { FaTwitter, FaInstagram, FaDiscord, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 import img1 from "../../../public/circle1.png"
 import img2 from "../../../public/circle2.png"
@@ -17,6 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ClipLoader } from "react-spinners";
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import Link from 'next/link';
 
 const Details = () => {
     const [firstName, setFirstName] = useState<string>('')
@@ -137,7 +138,7 @@ const Details = () => {
                     </div>
                     
                     <div className='flex items-center mt-[120px]'>
-                        <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white hover:text-primary cursor-pointer text-white flex justify-center items-center text-[18px] mr-[20px]'>
+                        {/* <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white hover:text-primary cursor-pointer text-white flex justify-center items-center text-[18px] mr-[20px]'>
                             <FaTwitter />
                         </div>
                         <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white hover:text-primary cursor-pointer text-white flex justify-center items-center text-[18px] mr-[20px]'>
@@ -145,10 +146,12 @@ const Details = () => {
                         </div>
                         <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px] mr-[20px]'>
                             <FaDiscord  />
-                        </div>
-                        <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px]'>
+                        </div> */}
+                        <Link href="https://www.linkedin.com/company/a-class-academic-consults-limited/">
+                            <div className='w-[38px] h-[38px] rounded-full bg-[#F6AF03] hover:bg-white text-white hover:text-primary cursor-pointer flex justify-center items-center text-[18px]'>
                             <FaLinkedin  />
                         </div>
+                        </Link>
                     </div>
                     
                     <div className='absolute bottom-0 right-0'>

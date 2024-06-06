@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Recruitment = () => {
   return (
-    <div className='w-[100%] flex flex-col items-center'>
+    <div id='recruitment' className='w-[100%] flex flex-col items-center'>
         <div className='w-[100%] h-[550px] sm:h-[350px] overflow-hidden mt-[50px] flex justify-center items-center relative'>
             <Image src={img} alt='' className='w-[100%] h-[100%] object-cover absolute'/>
         

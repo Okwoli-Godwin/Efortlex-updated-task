@@ -18,7 +18,8 @@ const Robotics = () => {
             </div>
             
             <div className='flex w-[90%] flex-col mt-[25px] md:w-[90%] sm:w-[90%]'>
-                <ul className='list-disc mb-[23px]'>
+                <div className='flex flex-col ml-[20px]'>
+                    <ul className='list-disc mb-[23px]'>
                     <li>
                         <span className='text-[17px] font-[700]'>A benchmark to enhance efficiency and productivity:</span>
                         <p className='text-[#434141] text-[18px] sm:text-[15px] md:text-justify sm:text-justify'>
@@ -50,6 +51,7 @@ const Robotics = () => {
                         </p>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>
     </div>

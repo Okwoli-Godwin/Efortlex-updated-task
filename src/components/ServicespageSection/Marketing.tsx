@@ -4,7 +4,7 @@ import img from "../../../public/Rectangle 3870.png"
 
 const Marketing = () => {
   return (
-    <div className='w-[100%] flex items-center pb-[40px] pt-[35px] mt-[20px] sm:mt-[10px] flex-col'>
+    <div id='marketing' className='w-[100%] flex items-center pb-[40px] pt-[35px] mt-[20px] sm:mt-[10px] flex-col'>
             
             <div className='w-[90%] flex justify-between flex-wrap'>
                 <div className='w-[58%] md:w-[100%] flex flex-col sm:w-[100%] md:mt-[20px] sm:mt-[20px]'>
