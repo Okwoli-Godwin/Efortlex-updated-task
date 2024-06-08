@@ -119,8 +119,7 @@ const Details = () => {
                         <div className='flex items-center'>
                             <div className='text-white text-[23px]'><BiSolidPhoneCall /></div>
                             <div className='flex flex-col ml-[15px]'>
-                                <p className='text-white text-[14px]'>+44 7544 742493</p>
-                                <p className='text-white text-[14px]'>+234 7061985823</p>
+                                <p className='text-white text-[14px]'>+234 813 026 4704</p>
                             </div>
                         </div>
                         <div className='flex items-center mt-[30px]'>

@@ -28,11 +28,6 @@ const ResearchAreas = () => {
                             Brand research: To use customer insights and competitions to identify the overall health, threats and opportunities of a brand.
                         </li>
                     </ul>
-                    <ul className='list-disc mb-[23px]'>
-                        <li className='text-[#434141] text-[17px] sm:text-[15px]'>
-                            Brand research: To use customer insights and competitions to identify the overall health, threats and opportunities of a brand. 
-                        </li>
-                    </ul>
                 </div>
                 
                 <div className='w-[47%] sm:w-[100%] md:w-[100%] flex flex-col'>

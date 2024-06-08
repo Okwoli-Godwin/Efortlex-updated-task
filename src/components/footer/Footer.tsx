@@ -63,7 +63,7 @@ const Footer = () => {
               <div className='text-white text-[25px]'>
                 <IoCallOutline />
               </div>
-              <p className='text-white ml-[12px]'>+44 7544 742493, +234 7061985823</p>
+              <p className='text-white ml-[12px]'>+234 813 026 4704</p>
             </div>
             <div className='flex items-center'>
               <div className='text-white text-[25px] flex items-center'>

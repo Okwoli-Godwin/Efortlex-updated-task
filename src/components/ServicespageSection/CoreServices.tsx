@@ -41,7 +41,7 @@ const CoreServices = () => {
                 <Link offset={-100} smooth={true} to="project" duration={500}>
                     <div className='w-[360px] md:w-[320px] sm:w-[100%] h-[370px] rounded-tr-[15px] rounded-bl-[15px] relative flex justify-center items-center overflow-hidden mb-[30px] cursor-pointer'>
                     <Image src={img4} alt='background image' className='w-full h-[100%] object-cover'/>
-                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>PROJCET MANAGEMENT</h3>
+                    <h3 className='text-white font-[700] text-[27px] sm:text-[20px] text-center absolute'>PROJECT MANAGEMENT</h3>
                 </div>
                 </Link>
                 
