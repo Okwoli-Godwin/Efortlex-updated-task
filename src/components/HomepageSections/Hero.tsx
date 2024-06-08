@@ -14,7 +14,7 @@ const Hero = () => {
                     Revolutionizing Your Business With Data-driven Insights, Consultancy and Personnel Development.
                 </h2>
                 <p className="mt-[20px] text-[19px] sm:text-[17px] tracking-wide text-paragraph font-[500] w-[90%] text-justify sm:w-[100%]">
-                    Full-service B2B research, consultancy and human development company that integrates data, technology and human development to aid private and public sector organisations in making better business decisions and achieving business growTh. 
+                    Full-service B2B research, consultancy and human development company that integrates data, technology and human development to aid private and public sector organisations in making better business decisions and achieving business growth. 
                 </p>
                 <div className='mt-[25px] sm:w-[100%] sm:flex sm:justify-center'>
                     <Link href="/contact">
